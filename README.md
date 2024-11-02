@@ -5,6 +5,15 @@
 # BUFFSpider
 
 Scrapy+Redis爬取buff数据
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<br />
+
 
 - *研究爬虫技术 ，遵循robots.txt协议的前提下，使用<u>Scrapy框架</u>和<u>redis</u>实现高效爬虫*
 
@@ -30,3 +39,18 @@ Scrapy+Redis爬取buff数据
 <p align="center">
 <img src="https://cache.yisu.com/upload/information/20200309/28/3420.jpg" width ="900"/>
 </p>
+<!-- links -->
+
+[your-project-path]:shaojintian/Best_README_template
+[contributors-shield]: https://img.shields.io/github/contributors/shaojintian/Best_README_template.svg?style=flat-square
+[contributors-url]: https://github.com/shaojintian/Best_README_template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/shaojintian/Best_README_template.svg?style=flat-square
+[forks-url]: https://github.com/shaojintian/Best_README_template/network/members
+[stars-shield]: https://img.shields.io/github/stars/shaojintian/Best_README_template.svg?style=flat-square
+[stars-url]: https://github.com/shaojintian/Best_README_template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg
+[license-shield]: https://img.shields.io/github/license/shaojintian/Best_README_template.svg?style=flat-square
+[license-url]: https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/shaojintian
