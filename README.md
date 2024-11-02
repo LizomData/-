@@ -1,5 +1,5 @@
 <p align="center">
-<a href = "https://buff.163.com/"><img src="https://p1.ssl.qhimg.com/t013958b6d32365da7b.png" width="250" /></a>
+<a href = "https://buff.163.com/"><img src="./asset/buff_logo.png" width="250" /></a>
 </p>
 
 # BUFFSpider
