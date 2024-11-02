@@ -5,16 +5,14 @@
 # BUFFSpider
 
 Scrapy+Redis爬取buff数据
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 <br />
-
-
 - *研究爬虫技术 ，遵循robots.txt协议的前提下，使用<u>Scrapy框架</u>和<u>redis</u>实现高效爬虫*
 
 - *对爬取的数据进行数据分析和可视化展示*
