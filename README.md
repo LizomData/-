@@ -2,6 +2,7 @@
 <a href = "https://buff.163.com/"><img src="https://p1.ssl.qhimg.com/t013958b6d32365da7b.png" width="250" /></a>
 </p>
 
+
 # BUFFSpider
 
 Scrapy+Redis爬取buff数据
@@ -32,24 +33,26 @@ Scrapy+Redis爬取buff数据
 <img src="https://i-blog.csdnimg.cn/blog_migrate/a7249f2a50d496763ca2da57a47d7954.png" width ="900"/>
 </p>
 
+
 ### Redis爬虫框架
 
 
 <p align="center">
 <img src="https://cache.yisu.com/upload/information/20200309/28/3420.jpg" width ="900"/>
 </p>
+
 <!-- links -->
 
 [your-project-path]:LizomData/buffSpider
-[contributors-shield]: https://img.shields.io/github/contributors/shaojintian/Best_README_template.svg?style=flat-square
-[contributors-url]: https://github.com/shaojintian/Best_README_template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/shaojintian/Best_README_template.svg?style=flat-square
-[forks-url]: https://github.com/shaojintian/Best_README_template/network/members
-[stars-shield]: https://img.shields.io/github/stars/shaojintian/Best_README_template.svg?style=flat-square
-[stars-url]: https://github.com/shaojintian/Best_README_template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg
-[license-shield]: https://img.shields.io/github/license/shaojintian/Best_README_template.svg?style=flat-square
-[license-url]: https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/LizomData/buffSpider.svg?style=flat-square
+[contributors-url]: https://github.com/LizomData/buffSpider/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LizomData/buffSpider.svg?style=flat-square
+[forks-url]: https://github.com/LizomData/buffSpider/network/members
+[stars-shield]: https://img.shields.io/github/stars/LizomData/buffSpider.svg?style=flat-square
+[stars-url]: https://github.com/LizomData/buffSpider/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LizomData/buffSpider.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/LizomData/buffSpider.svg
+[license-shield]: https://img.shields.io/github/license/LizomData/buffSpider.svg?style=flat-square
+[license-url]: https://github.com/LizomData/buffSpider/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/shaojintian
