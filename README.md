@@ -13,7 +13,8 @@ Scrapy+Redis爬取buff数据
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 <br />
-- *研究爬虫技术 ，遵循robots.txt协议的前提下，使用<u>Scrapy框架</u>和<u>redis</u>实现高效爬虫*
+
+- 研究爬虫技术 ，遵循robots.txt协议的前提下，使用<u>Scrapy框架</u>和<u>redis</u>实现高效爬虫*
 
 - *对爬取的数据进行数据分析和可视化展示*
 
