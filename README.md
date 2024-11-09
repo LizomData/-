@@ -52,6 +52,19 @@ Scrapy+Redis爬取buff数据
 <img src="https://github.com/LizomData/buffSpider/blob/main/BUFFSpider/runPit/img.png?raw=true" width ="900"/>
 </p>
 
+### pandas+seaborn数据统计
+
+<p align="center">
+<img src="https://github.com/LizomData/buffSpider/blob/main/BUFFSpider/runPit/img_1.png?raw=true" width ="900"/>
+</p>
+
+
+### pandas+seaborn数据统计
+
+<p align="center">
+<img src="https://github.com/LizomData/buffSpider/blob/main/BUFFSpider/runPit/img_2.png?raw=true" width ="900"/>
+</p>
+
 
 
 
