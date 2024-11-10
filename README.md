@@ -3,7 +3,7 @@
 </p>
 
 
-# BUFFSpider
+# BUFFSpider (前言)
 
 Scrapy+Redis爬取buff数据
 
@@ -65,6 +65,11 @@ Scrapy+Redis爬取buff数据
 <img src="https://github.com/LizomData/buffSpider/blob/main/BUFFSpider/runPit/img_2.png?raw=true" width ="900"/>
 </p>
 
+### 价格变动数据展示
+
+<p align="center">
+<img src="https://github.com/LizomData/buffSpider/blob/main/BUFFSpider/runPit/img_3.png?raw=true" width ="900"/>
+</p>
 
 
 

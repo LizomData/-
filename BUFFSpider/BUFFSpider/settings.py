@@ -25,7 +25,7 @@ NEWSPIDER_MODULE = "BUFFSpider.spiders"
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 2
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -51,7 +51,7 @@ DEFAULT_REQUEST_HEADERS = {
   'referer': "https://buff.163.com/market/csgo",
   'accept-language': "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
   'priority': "u=1, i",
-  'Cookie': "session=1-7emdFjsK2iI3b1y1314V8uJijQ-UGwOoOn7JYrrKLf6R2027763368",
+  'Cookie': "session=1-ck4lL_6jCVy_1wTsqyXuyF9zFRh4B2y88XC9E_Fu9ktK2027763368",
 }
 
 # Enable or disable spider middlewares
