@@ -71,6 +71,18 @@ Scrapy+Redis爬取buff数据
 <img src="https://github.com/LizomData/buffSpider/blob/main/BUFFSpider/runPit/img_3.png?raw=true" width ="900"/>
 </p>
 
+### 商品展示
+
+<p align="center">
+<img src="https://github.com/LizomData/buffSpider/blob/main/BUFFSpider/runPit/img_4.png?raw=true" width ="900"/>
+</p>
+
+### 商品数据展示
+
+<p align="center">
+<img src="https://github.com/LizomData/buffSpider/blob/main/BUFFSpider/runPit/img_5.png?raw=true" width ="900"/>
+</p>
+
 
 
 

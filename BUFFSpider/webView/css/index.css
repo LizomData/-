@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  color: #333;
+  display: flex;
+  /* 鼠标悬停时效果 */
+  /* 点击时效果 */
+}
+body .clousm {
+  display: flex;
+  flex: 1;
+}
+body .drag-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* 半透明背景 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5em;
+  z-index: 999;
+  /* 确保它在其他元素之上 */
+  /* 默认隐藏，只有拖拽时才显示 */
+  transition: visibility 0.3s, opacity 0.3s;
+  /* 平滑过渡 */
+}
+body .drag-area.active {
+  visibility: visible;
+  /* 显示拖拽区域 */
+  opacity: 1;
+  /* 设置不透明 */
+}
+body .circle-button {
+  position: fixed;
+  display: flex;
+  z-index: 1000;
+  width: 50px;
+  height: 50px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  /* 完全圆形 */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+body #prevBtn {
+  left: 10em;
+  top: 10em;
+}
+body #nextBtn {
+  right: 11em;
+  top: 10em;
+}
+body .circle-button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+body .circle-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+body #container {
+  z-index: 1000;
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 1024px;
+  max-width: 1024px;
+  justify-content: center;
+}
+body #container #first {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+body #container #two {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+body #container .item {
+  flex: 1 0 19%;
+  max-width: 20%;
+  min-height: 15em;
+}
+body #container li {
+  border: 1px solid #dbdbdb;
+  float: left;
+  margin: 0 25px 20px 0;
+  position: relative;
+  padding-bottom: 9px;
+  width: 209px;
+  height: 220px;
+  background: #f9f9f9;
+  border-radius: 2px;
+  box-shadow: 0 0 4px 0 rgba(149, 149, 149, 0.3);
+}
+body #container li > a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: url(../images/item_bg.png);
+  background-size: cover;
+}
+body #container li > a img {
+  width: 70%;
+  height: 100%;
+}
+body #container li:hover {
+  border-color: rgba(255, 111, 0, 0.8);
+  background-color: rgba(255, 111, 0, 0.1);
+}
+body #container li h3 {
+  position: absolute;
+  top: 155px;
+  left: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 99%;
+}
+body #container li h3 a {
+  color: black;
+  font-size: 15px;
+}
+body #container li p {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 35px 12px;
+}
+body #container li p strong {
+  font-size: 15px;
+  color: #ec9f0f;
+}
+body #container li p span {
+  font-size: 12px;
+  font-weight: 700;
+  float: right;
+}
+body #container li .color {
+  padding: 1px;
+  display: inline-block;
+  background-color: #333;
+  position: absolute;
+  font-size: 12px;
+  color: #fff;
+  top: 0;
+  left: 0;
+}
