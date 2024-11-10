@@ -198,7 +198,7 @@ class getAk47Spider(RedisSpider):
                                     params=params,
                                     verify=False,
                                     headers=headers,
-                                    proxies={'http': "http://127.0.0.1:7891", 'https': "http://127.0.0.1:7891"}
+                                    # proxies={'http': "http://127.0.0.1:7891", 'https': "http://127.0.0.1:7891"}
                                     )
             res_json = response.json()
             data_json = res_json.get('data', '')

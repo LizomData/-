@@ -26,8 +26,8 @@ class BuffspiderPipeline:
         }
 
         # 建立数据库连接
-        self.db_connection = mysql.connector.connect(**db_config)
-        self.cursor = self.db_connection.cursor()
+        # self.db_connection = mysql.connector.connect(**db_config)
+        # self.cursor = self.db_connection.cursor()
 
 
 
